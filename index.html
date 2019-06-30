@@ -11,89 +11,113 @@
 </head>
 
 <body>
-	<header class="headerNavigation">
-		<a href="index.html" class="mainWebsiteHyperlink">Strona główna</a>
-		<a href="druga_strona.html" class="secondWebsiteHyperlink">Podstrona</a>
+	<header class="navigation">
+		<a href="index.html" class="navigation__link navigation__link--hyperlink">Strona główna</a>
+		<a href="druga_strona.html" class="navigation__link navigation__link--hyperlink">Podstrona</a>
 	</header>
 	<main class="main">
-		<header class="mainHeader">
-			<h1 class="headingHeader1">
+		<header class="header">
+			<h1 class="header__title">
 				Dziennik pokładowy kursanta ze szkolenia WTF Co ten frontend
 			</h1>
 		</header>
 
 		<section class="section">
-			<h2 class="sectionHeader">Kim jestem?</h2>
-			<p class="sectionParagraph">
+			<h2 class="section__title">Kim jestem?</h2>
+			<p class="section__paragraph">
 				Cześć. Mam na imię Jarek, lat 31. Programowaniem podjarałem się już w szkole w 2015 roku jako absolwent studium
 				informatycznego (na ostatnim semestrze miałem wprowadzenie do javascript i trochę php). Po ukończeniu szkoły
 				uczyłem się programować samodzielnie, głównie z poradników internetowych w tym z popularnego codecademy który
-				jest dobrym wprowadzeniem do kodowania, wykupiłem nawet miesięczną płatną subskrypcję która średnio mnie
-				usatysfakcjonowała, mimo wszystko porobiłem tyle projektów ile zdołałem. W tym czasie próbowałem się dostać do
-				kilku firm nastawionych na tą branżę (nawet o gamedev zachaczyłem) ale bezskutecznie, powód za każdym razem był
-				prosty, za mało jeszcze umiałem. Posiadam również własnego githuba: https://gist.github.com/jaruto7.
-				Oprócz programowania lubię od czasu do czasu powspinać się na ściance wspinaczkowej na boulderingu (jest to taka
-				ścianka do 5 metrów wysokości bez asekuracji linką). Poza tym staram się biegać na długie dystanse. W tamtym
-				roku byłem na kilku zawodach amatorskich: miła atmosfera, ludzie (szczególnie fajnie wspominam cross który był
-				mega wymagający) i dobre jedzenie. Lubię też pograć sobie w jakąś grę komputerową ale mało mam czasu na tego
-				typu rozrywkę. Co jeszcze... czasem obejrzę jakieś fajne anime lub poczytam mangę no i wcześniej całkiem sporo
-				trenowałem różne sporty/systemy walki: taekwondo, k1, bjj (ale krótko), krav maga i radziłem sobie całkiem spoko
-				jak na chudej postury osobę którą jestem.
-				Obecnie poza bieganiem nic nie trenuję ale zamierzam powrócić do martial arts jeszcze.
-				Na co dzień pracuję fizycznie w tygodniu w firmie zajmującej się wyrobami części do tokarek i frezarek ale
-				planuję jeszcze w tym roku zmianę tej branży na coś co lubię już od dawna czyli pracować w jakimś fajnym
-				start-upie jako frontend developer.
+				jest całkiem niezłym wprowadzeniem do kodowania, wykupiłem nawet miesięczną...
 			</p>
+			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Kim jestem</a>
 			<header class="headerHyperlinks">
-				<a href="#dlaczegoSieZapisalem" class="hyperlink">Dlaczego zapisałem się na szkolenie?</a><br>
-				<a href="#coJuzUmialem" class="hyperlink">Co już wcześniej umiałem?</a><br>
-				<a href="#czegoNieUmiem" class="hyperlink">Czego jeszcze nie umiem?</a><br>
-				<a href="#czegoNieWiedzialem" class="hyperlink">Czego nie wiedziałem?</a><br>
-				<a href="#coMuszePowtorzyc" class="hyperlink">Co muszę powtórzyć?</a><br>
-				<a href="#dlaczegoFrontend" class="hyperlink">Dlaczego Frontend developer?</a><br>
-				<a href="#karieraProgramisty" class="hyperlink">Kariera programisty</a><br>
+				<a href="#dlaczegoSieZapisalem" class="section__link">Dlaczego zapisałem się na szkolenie?</a><br>
+				<a href="#coJuzUmialem" class="section__link">Co już wcześniej umiałem?</a><br>
+				<a href="#czegoNieUmiem" class="section__link">Czego jeszcze nie umiem?</a><br>
+				<a href="#czegoNieWiedzialem" class="section__link">Czego nie wiedziałem?</a><br>
+				<a href="#coMuszePowtorzyc" class="section__link">Co muszę powtórzyć?</a><br>
+				<a href="#dlaczegoFrontend" class="section__link">Dlaczego Frontend developer?</a><br>
+				<a href="#karieraProgramisty" class="section__link">Kariera programisty</a><br>
 				<img
 					src="https://images.unsplash.com/photo-1561266322-ccd177d44cff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-					alt="zdjęcie miasta" class="image">
+					alt="zdjęcie miasta" class="section__image">
 			</header>
 		</section>
 
 		<section id="dlaczegoSieZapisalem" class="section">
-			<h2 class="sectionHeader2">Dlaczego zapisałem się na szkolenie?</h2>
-			<a href="druga_strona.html" class="moveToArticleLink">Przejdź do artykułu</a>
+			<h2 class="section__title">Dlaczego zapisałem się na szkolenie?</h2>
+			<p class="section__paragraph">Zapisałem się na to szkolenie aby podciągnąć się głównie z Javascriptu bo z tą technologią u mnie słabo a i
+				przy okazji przypomnieć sobie i być może również nauczyć się czegoś nowego. Spodobała mi się metodyka
+				prowadzenia przez naszego nauczyciela więc sądzę że tym razem, jeśli się przyłożę porządnie to uda mi się
+				osiągnąć to co sobie zamierzyłem.
+			</p>
+			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Dlaczego się zapisałem</a>
 		</section>
 
 		<section id="coJuzUmialem" class="section">
-			<h2 class="sectionHeader2">Co już wcześniej umiałem?</h2>
-			<a href="druga_strona.html" class="moveToArticleLink">Przejdź do artykułu</a>
+			<h2 class="section__title">Co już wcześniej umiałem?</h2>
+			<ul class="ul__items">
+				<li class="ul__item">HTML</li>
+				<li class="ul__item">CSS</li>
+				<li class="ul__item">Javascript ES6</li>
+				<li class="ul__item">RWD</li>
+				<li class="ul__item">Git</li>
+				<li class="ul__item">NodeJs & npm task runner</li>
+				<li class="ul__item">Terminal</li>
+			</ul>
+			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Co już umiałem</a>
 		</section>
 
 		<section id="czegoNieUmiem" class="section">
-			<h2 class="sectionHeader2">Czego jeszcze nie umiem?</h2>
-			<a href="druga_strona.html" class="moveToArticleLink">Przejdź do artykułu</a>
+			<h2 class="section__title">Czego jeszcze nie umiem?</h2>
+			<ol class="ol_items">
+				<li class="ol__item">Flexbox</li>
+				<li class="ol__item">Css Grid</li>
+			</ol>
+			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Czego nie umiem</a>
 		</section>
 
 		<section id="czegoNieWiedzialem" class="section">
-			<h2 class="sectionHeader2">Czego nie wiedziałem?</h2>
-			<a href="druga_strona.html" class="moveToArticleLink">Przejdź do artykułu</a>
+			<h2 class="section__title">Czego nie wiedziałem?</h2>
+			<ul class="ul__items">
+				<li class="ul__item">Warstwy strony</li>
+			</ul>
+			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Czego nie wiedziałem</a>
 		</section>
 
 		<section id="coMuszePowtorzyc" class="section">
-			<h2 class="sectionHeader2">Co muszę powtórzyć?</h2>
-			<a href="druga_strona.html" class="moveToArticleLink">Przejdź do artykułu</a>
+			<h2 class="section__title">Co muszę powtórzyć?</h2>
+			<ol class="ol_items">
+				<li class="ol__item">Flexbox</li>
+				<li class="ol__item">Semantyka HTML</li>
+			</ol>
+			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Co powtórzyć</a>
 		</section>
 
 		<section id="dlaczegoFrontend" class="section">
-			<h2 class="sectionHeader2">Dlaczego chciałbym zostać frontend developerem?</h2>
-			<a href="druga_strona.html" class="moveToArticleLink">Przejdź do artykułu</a>
+			<h2 class="section__title">Dlaczego chciałbym zostać frontend developerem?</h2>
+			<p class="section__paragraph">Chciałbym zostać bo...</p>
+			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Dlaczego frontend</a>
 		</section>
 
 		<section id="karieraProgramisty" class="section">
-			<h2 class="sectionHeader2">Co jeszcze chciałbym osiągnąć w karierze jako programista?</h2>
-			<a href="druga_strona.html" class="moveToArticleLink">Przejdź do artykułu</a>
-			<section>
-				<h3 class="sectionHeader3">Jak tego dokonać?</h3>
-				<a href="druga_strona.html" class="moveToArticleLink">Przejdź do artykułu</a>
+			<h2 class="section__title">Co jeszcze chciałbym osiągnąć w karierze jako programista?</h2>
+			<ul class="ul__items">
+				<li class="ul__items">nauczyć się występować publicznie</li>
+				<li class="ul__items">rozwinąć wysoki poziom komunikacji, dobrej gadki</li>
+				<li class="ul__items">zbudować zdrową samoocenę</li>
+				<li class="ul__items">stępić bodźce na strach przed poznawaniem nowych grup ludzi na codzień</li>
+				<li class="ul__items">kontrola i opanowanie swoich emocji</li>
+			</ul>
+			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Co jeszcze chciałbym osiągnąć</a>
+			<section class="section">
+				<h3 class="section__title">Jak tego dokonać?</h3>
+				<ul class="ul__items">
+					<li class="ul__item">wychodzić kilka razy w ciągu tygodnia w inne miejsca</li>
+					<li class="ul__item">rozmawiać z nowymi, obcymi ludźmi jak najwięcej</li>
+				</ul>
+				<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Jak to zrobić</a>
 			</section>
 		</section>
 	</main>
