@@ -25,11 +25,6 @@ h2 {
   padding-top: 25px;
 }
 
-p, ul, ol {
-  height: 5vh;
-  overflow: hidden;
-}
-
 .sectionParagraph, h2, .image {
   padding-left: 25px;
   margin-bottom: 0;

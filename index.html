@@ -11,10 +11,19 @@
 </head>
 
 <body>
-	<header class="navigation">
-		<a href="index.html" class="navigation__link navigation__link--hyperlink">Strona główna</a>
-		<a href="druga_strona.html" class="navigation__link navigation__link--hyperlink">Podstrona</a>
+	<header class="header">
+		<nav class="navigation">
+			<ul class="navigation__list">
+				<li>
+					<a href="index.html" class="navigation__item">Strona główna</a>
+				</li>
+				<li>
+					<a href="druga_strona.html" class="navigation__item">Podstrona</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
+
 	<main class="main">
 		<header class="header">
 			<h1 class="header__title">
@@ -22,103 +31,121 @@
 			</h1>
 		</header>
 
-		<section class="section">
-			<h2 class="section__title">Kim jestem?</h2>
-			<p class="section__paragraph">
+		<section class="about">
+			<h2 class="about__title">Kim jestem?</h2>
+			<p class="about__paragraph">
 				Cześć. Mam na imię Jarek, lat 31. Programowaniem podjarałem się już w szkole w 2015 roku jako absolwent studium
 				informatycznego (na ostatnim semestrze miałem wprowadzenie do javascript i trochę php). Po ukończeniu szkoły
 				uczyłem się programować samodzielnie, głównie z poradników internetowych w tym z popularnego codecademy który
 				jest całkiem niezłym wprowadzeniem do kodowania, wykupiłem nawet miesięczną...
 			</p>
-			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Kim jestem</a>
-			<header class="headerHyperlinks">
-				<a href="#dlaczegoSieZapisalem" class="section__link">Dlaczego zapisałem się na szkolenie?</a><br>
-				<a href="#coJuzUmialem" class="section__link">Co już wcześniej umiałem?</a><br>
-				<a href="#czegoNieUmiem" class="section__link">Czego jeszcze nie umiem?</a><br>
-				<a href="#czegoNieWiedzialem" class="section__link">Czego nie wiedziałem?</a><br>
-				<a href="#coMuszePowtorzyc" class="section__link">Co muszę powtórzyć?</a><br>
-				<a href="#dlaczegoFrontend" class="section__link">Dlaczego Frontend developer?</a><br>
-				<a href="#karieraProgramisty" class="section__link">Kariera programisty</a><br>
+			<a href="druga_strona.html" class="about__link">Przejdź do artykułu: Kim jestem</a>
+			<header class="header">
+				<ul class="header__list">
+					<li class="header_item">
+						<a href="#dlaczegoSieZapisalem" class="header__link">Dlaczego zapisałem się na szkolenie?</a>
+					</li>
+					<li class="header__item">
+						<a href="#coJuzUmialem" class="header__link">Co już wcześniej umiałem?</a>
+					</li>
+					<li class="header__item">
+						<a href="#czegoNieUmiem" class="header__link">Czego jeszcze nie umiem?</a>
+					</li>
+					<li class="header__item">
+						<a href="#czegoNieWiedzialem" class="header__link">Czego nie wiedziałem?</a>
+					</li>
+					<li class="header__item">
+						<a href="#coMuszePowtorzyc" class="header__link">Co muszę powtórzyć?</a>
+					</li>
+					<li class="header__item">
+						<a href="#dlaczegoFrontend" class="header__link">Dlaczego Frontend developer?</a>
+					</li>
+					<li class="header__item">
+						<a href="#karieraProgramisty" class="header__link">Kariera programisty</a>
+					</li>
+				</ul>
 				<img
 					src="https://images.unsplash.com/photo-1561266322-ccd177d44cff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-					alt="zdjęcie miasta" class="section__image">
+					alt="zdjęcie miasta" class="header__image">
 			</header>
 		</section>
 
-		<section id="dlaczegoSieZapisalem" class="section">
-			<h2 class="section__title">Dlaczego zapisałem się na szkolenie?</h2>
-			<p class="section__paragraph">Zapisałem się na to szkolenie aby podciągnąć się głównie z Javascriptu bo z tą technologią u mnie słabo a i
+		<section id="dlaczegoSieZapisalem" class="training">
+			<h2 class="training__title">Dlaczego zapisałem się na szkolenie?</h2>
+			<p class="training__paragraph">Zapisałem się na to szkolenie aby podciągnąć się głównie z Javascriptu bo z tą
+				technologią u mnie słabo a i
 				przy okazji przypomnieć sobie i być może również nauczyć się czegoś nowego. Spodobała mi się metodyka
 				prowadzenia przez naszego nauczyciela więc sądzę że tym razem, jeśli się przyłożę porządnie to uda mi się
 				osiągnąć to co sobie zamierzyłem.
 			</p>
-			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Dlaczego się zapisałem</a>
+			<a href="druga_strona.html" class="training__link">Przejdź do artykułu: Dlaczego się zapisałem</a>
 		</section>
 
-		<section id="coJuzUmialem" class="section">
-			<h2 class="section__title">Co już wcześniej umiałem?</h2>
-			<ul class="ul__items">
-				<li class="ul__item">HTML</li>
-				<li class="ul__item">CSS</li>
-				<li class="ul__item">Javascript ES6</li>
-				<li class="ul__item">RWD</li>
-				<li class="ul__item">Git</li>
-				<li class="ul__item">NodeJs & npm task runner</li>
-				<li class="ul__item">Terminal</li>
+		<section id="coJuzUmialem" class="learned">
+			<h2 class="learned__title">Co już wcześniej umiałem?</h2>
+			<ul class="learned__list">
+				<li class="learned__item">HTML</li>
+				<li class="learned__item">CSS</li>
+				<li class="learned__item">Javascript ES6</li>
+				<li class="learned__item">RWD</li>
+				<li class="learned__item">Git</li>
+				<li class="learned__item">NodeJs & npm task runner</li>
+				<li class="learned__item">Terminal</li>
 			</ul>
-			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Co już umiałem</a>
+			<a href="druga_strona.html" class="learned__link">Przejdź do artykułu: Co już umiałem</a>
 		</section>
 
-		<section id="czegoNieUmiem" class="section">
-			<h2 class="section__title">Czego jeszcze nie umiem?</h2>
-			<ol class="ol_items">
-				<li class="ol__item">Flexbox</li>
-				<li class="ol__item">Css Grid</li>
+		<section id="czegoNieUmiem" class="not-learned">
+			<h2 class="not-learned__title">Czego jeszcze nie umiem?</h2>
+			<ol class="not-learned_list">
+				<li class="not-learned__item">Flexbox</li>
+				<li class="not-learned__item">Css Grid</li>
 			</ol>
-			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Czego nie umiem</a>
+			<a href="druga_strona.html" class="not-learned__link">Przejdź do artykułu: Czego nie umiem</a>
 		</section>
 
-		<section id="czegoNieWiedzialem" class="section">
-			<h2 class="section__title">Czego nie wiedziałem?</h2>
-			<ul class="ul__items">
-				<li class="ul__item">Warstwy strony</li>
+		<section id="czegoNieWiedzialem" class="didnt-know">
+			<h2 class="didnt-know__title">Czego nie wiedziałem?</h2>
+			<ul class="didnt-know__list">
+				<li class="didnt-know__item">Warstwy strony</li>
 			</ul>
-			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Czego nie wiedziałem</a>
+			<a href="druga_strona.html" class="didnt-know__link">Przejdź do artykułu: Czego nie wiedziałem</a>
 		</section>
 
-		<section id="coMuszePowtorzyc" class="section">
-			<h2 class="section__title">Co muszę powtórzyć?</h2>
-			<ol class="ol_items">
-				<li class="ol__item">Flexbox</li>
-				<li class="ol__item">Semantyka HTML</li>
+		<section id="coMuszePowtorzyc" class="repeat">
+			<h2 class="repeat__title">Co muszę powtórzyć?</h2>
+			<ol class="repeat_list">
+				<li class="repeat__item">Flexbox</li>
+				<li class="repeat__item">Semantyka HTML</li>
 			</ol>
-			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Co powtórzyć</a>
+			<a href="druga_strona.html" class="repeat__link">Przejdź do artykułu: Co powtórzyć</a>
 		</section>
 
-		<section id="dlaczegoFrontend" class="section">
-			<h2 class="section__title">Dlaczego chciałbym zostać frontend developerem?</h2>
-			<p class="section__paragraph">Chciałbym zostać bo...</p>
-			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Dlaczego frontend</a>
+		<section id="dlaczegoFrontend" class="why-frontend">
+			<h2 class="why-frontend__title">Dlaczego chciałbym zostać frontend developerem?</h2>
+			<p class="why-frontend__paragraph">Chciałbym zostać bo...</p>
+			<a href="druga_strona.html" class="why-frontend__link">Przejdź do artykułu: Dlaczego frontend</a>
 		</section>
 
-		<section id="karieraProgramisty" class="section">
-			<h2 class="section__title">Co jeszcze chciałbym osiągnąć w karierze jako programista?</h2>
-			<ul class="ul__items">
-				<li class="ul__items">nauczyć się występować publicznie</li>
-				<li class="ul__items">rozwinąć wysoki poziom komunikacji, dobrej gadki</li>
-				<li class="ul__items">zbudować zdrową samoocenę</li>
-				<li class="ul__items">stępić bodźce na strach przed poznawaniem nowych grup ludzi na codzień</li>
-				<li class="ul__items">kontrola i opanowanie swoich emocji</li>
+		<section id="karieraProgramisty" class="whats-next">
+			<h2 class="whats-next__title">Co jeszcze chciałbym osiągnąć w karierze jako programista?</h2>
+			<ul class="whats-next__list">
+				<li class="whats-next__item">nauczyć się występować publicznie</li>
+				<li class="whats-next__item">rozwinąć wysoki poziom komunikacji, dobrej gadki</li>
+				<li class="whats-next__item">zbudować zdrową samoocenę</li>
+				<li class="whats-next__item">stępić bodźce na strach przed poznawaniem nowych grup ludzi na codzień</li>
+				<li class="whats-next__item">kontrola i opanowanie swoich emocji</li>
 			</ul>
-			<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Co jeszcze chciałbym osiągnąć</a>
-			<section class="section">
-				<h3 class="section__title">Jak tego dokonać?</h3>
-				<ul class="ul__items">
-					<li class="ul__item">wychodzić kilka razy w ciągu tygodnia w inne miejsca</li>
-					<li class="ul__item">rozmawiać z nowymi, obcymi ludźmi jak najwięcej</li>
+			<a href="druga_strona.html" class="whats-next__link">Przejdź do artykułu: Co jeszcze chciałbym osiągnąć</a>
+			<section class="achieve">
+				<h3 class="achieve__title">Jak tego dokonać?</h3>
+				<ul class="achieve__list">
+					<li class="achieve__item">wychodzić kilka razy w ciągu tygodnia w inne miejsca</li>
+					<li class="achieve__item">rozmawiać z nowymi, obcymi ludźmi jak najwięcej</li>
 				</ul>
-				<a href="druga_strona.html" class="section__link">Przejdź do artykułu: Jak to zrobić</a>
+				<a href="druga_strona.html" class="achieve__link">Przejdź do artykułu: Jak to zrobić</a>
 			</section>
+
 		</section>
 	</main>
 	<footer class="footer">
