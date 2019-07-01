@@ -33,8 +33,8 @@ body {
 
 /* MAIN-HEADER SECTION */
 
-.header__title {
-  color: #3FA34D;
+.main-header__title {
+  color: rgb(84, 207, 100);
   font-size: 33px;
 }
 
@@ -48,9 +48,12 @@ body {
 .about__paragraph {
   width: 85%;
   letter-spacing: 2px;
+  padding: 0 16px;
+}
+
+.about__paragraph--hidden, .about__list--hidden {
   height: 5vh;
   overflow: hidden;
-  padding: 0 16px;
 }
 
 .about__item {
