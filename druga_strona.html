@@ -6,23 +6,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-	
-		<header class="header-navigation">
-				<nav class="navigation">
-					<ul class="navigation__list">
-						<li class="navigation__item">
-							<a href="index.html" class="navigation__link">Strona główna</a>
-						</li>
-						<li class="navigation__item">
-							<a href="druga_strona.html" class="navigation__link">Podstrona</a>
-						</li>
-					</ul>
-				</nav>
-			</header>
+
+	<header class="header-navigation">
+		<nav class="navigation">
+			<ul class="navigation__list">
+				<li class="navigation__item">
+					<a href="index.html" class="navigation__link">Strona główna</a>
+				</li>
+				<li class="navigation__item">
+					<a href="druga_strona.html" class="navigation__link">Podstrona</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
 
 	<main class="main">
 
@@ -34,6 +34,9 @@
 
 		<article class="about">
 			<h2 class="about__title">O mnie</h2>
+			<img
+					src="https://images.unsplash.com/photo-1561266322-ccd177d44cff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+					alt="zdjęcie miasta" class="url-collection__image">
 			<p class="about__paragraph">
 				Cześć. Mam na imię Jarek, lat 31. Programowaniem podjarałem się już w szkole w 2015 roku jako absolwent studium
 				informatycznego (na ostatnim semestrze miałem wprowadzenie do javascript i trochę php). Po ukończeniu szkoły
@@ -78,14 +81,12 @@
 						<a href="#karieraProgramisty" class="url-collection__link">Kariera programisty</a>
 					</li>
 				</ol>
-				<img
-					src="https://images.unsplash.com/photo-1561266322-ccd177d44cff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-					alt="zdjęcie miasta" class="url-collection__image">
 			</header>
 		</article>
 
 		<article id="dlaczegoSieZapisalem" class="about">
 			<h2 class="about__title">Dlaczego zapisałem się na szkolenie?</h2>
+			<img src="https://images.unsplash.com/photo-1563713665854-e72327bf780e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Zdjęcie jeziora">
 			<p class="about__paragraph">Zapisałem się na to szkolenie aby podciągnąć się głównie z Javascriptu bo z tą
 				technologią u mnie słabo a i
 				przy okazji przypomnieć sobie i być może również nauczyć się czegoś nowego. Spodobała mi się metodyka
@@ -97,6 +98,7 @@
 
 		<article id="coJuzUmialem" class="about">
 			<h2 class="about__title">Co już wcześniej umiałem?</h2>
+			<img src="https://images.unsplash.com/photo-1563775421597-ecf0fc7f9c04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Widok schodów z lotu ptaka">
 			<ul class="about__list">
 				<li class="about__item">HTML</li>
 				<li class="about__item">CSS</li>
@@ -106,11 +108,12 @@
 				<li class="about__item">NodeJs & npm task runner</li>
 				<li class="about__item">Terminal</li>
 			</ul>
-			<a href="druga_strona.html" class="about__link">Przejdź do artykułu: Co już umiałem</a>
+			<a href="druga_strona.html" class="about__link">Przejdź do artykułu: Co już umiałem</a>		
 		</article>
 
 		<article id="czegoNieUmiem" class="about">
 			<h2 class="about__title">Czego jeszcze nie umiem?</h2>
+			<img src="https://images.unsplash.com/photo-1563775985010-22480f2a7e91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Okno">
 			<ul class="about_list">
 				<li class="about__item">Css Grid</li>
 			</ul>
@@ -119,6 +122,7 @@
 
 		<article id="czegoNieWiedzialem" class="about">
 			<h2 class="about__title">Czego nie wiedziałem?</h2>
+			<img src="https://images.unsplash.com/photo-1563724221574-1dc7e45d95d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Widok przez szybę">
 			<ul class="about__list">
 				<li class="about__item">Warstwy strony</li>
 			</ul>
@@ -127,7 +131,9 @@
 
 		<article id="coMuszePowtorzyc" class="about">
 			<h2 class="about__title">Co muszę powtórzyć?</h2>
+			<img src="https://images.unsplash.com/photo-1563757368282-d86ff611efbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Pustynia przed zachodem słońca">
 			<ol class="about_list">
+				<li class="about__item">Javascript</li>
 				<li class="about__item">Flexbox</li>
 				<li class="about__item">Semantyka HTML</li>
 			</ol>
@@ -135,36 +141,40 @@
 		</article>
 
 		<article id="dlaczegoFrontend" class="about">
-				<h2 class="about__title">Dlaczego chciałbym zostać frontend developerem?</h2>
-				<p class="about__paragraph">Chciałbym zostać frontendowcem, ponieważ uwielbiam tworzyć nowe rzeczy na stronie, główkować jak połączyć ze sobą te wirtualne puzzle aby zadziałało i widzieć od razu efekty swojej pracy na ekranie monitora.</p>
-				<a href="druga_strona.html" class="about__link">Przejdź do artykułu: Dlaczego frontend</a>
+			<h2 class="about__title">Dlaczego chciałbym zostać frontend developerem?</h2>
+			<img src="https://images.unsplash.com/photo-1563699498778-aa8246fa5456?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Owoce i warzywa na stole">
+			<p class="about__paragraph">Chciałbym zostać frontendowcem, ponieważ uwielbiam tworzyć nowe rzeczy na stronie,
+				główkować jak połączyć ze sobą te wirtualne puzzle aby zadziałało i widzieć od razu efekty swojej pracy na
+				ekranie monitora.</p>
+			<a href="druga_strona.html" class="about__link">Przejdź do artykułu: Dlaczego frontend</a>
 		</article>
 
 		<article id="karieraProgramisty" class="about">
-				<h2 class="about__title">Co jeszcze chciałbym osiągnąć w karierze jako programista?</h2>
-				<ul class="about__list">
-					<li class="about__item">nauczyć się występować publicznie</li>
-					<li class="about__item">rozwinąć wysoki poziom komunikacji, dobrej gadki</li>
-					<li class="about__item">zbudować zdrową samoocenę i poczucie własnej wartości</li>
-					<li class="about__item">stępić bodźce na strach przed poznawaniem nowych grup ludzi na codzień</li>
-					<li class="about__item">kontrola i opanowanie swoich emocji</li>
+			<h2 class="about__title">Co jeszcze chciałbym osiągnąć w karierze jako programista?</h2>
+			<img src="https://images.unsplash.com/photo-1563692732294-9d93813af943?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Skatepark">
+			<ul class="about__list">
+				<li class="about__item">nauczyć się występować publicznie</li>
+				<li class="about__item">rozwinąć wysoki poziom komunikacji, dobrej gadki</li>
+				<li class="about__item">zbudować zdrową samoocenę i poczucie własnej wartości</li>
+				<li class="about__item">stępić bodźce na strach przed poznawaniem nowych grup ludzi na codzień</li>
+				<li class="about__item">kontrola i opanowanie swoich emocji</li>
+			</ul>
+			<a href="druga_strona.html" class="about__link">Przejdź do artykułu: Co jeszcze chciałbym osiągnąć</a>
+			<article class="about-subsection">
+				<h3 class="about-subsection__title">Jak tego dokonać?</h3>
+				<ul class="about-subsection__list">
+					<li class="about-subsection__item">wychodzić kilka razy w ciągu tygodnia w inne miejsca</li>
+					<li class="about-subsection__item">rozmawiać z nowymi, obcymi ludźmi jak najwięcej</li>
 				</ul>
-				<a href="druga_strona.html" class="about__link">Przejdź do artykułu: Co jeszcze chciałbym osiągnąć</a>
-				<article class="about-subsection">
-					<h3 class="about-subsection__title">Jak tego dokonać?</h3>
-					<ul class="about-subsection__list">
-						<li class="about-subsection__item">wychodzić kilka razy w ciągu tygodnia w inne miejsca</li>
-						<li class="about-subsection__item">rozmawiać z nowymi, obcymi ludźmi jak najwięcej</li>
-					</ul>
-					<a href="druga_strona.html" class="about-subsection__link">Przejdź do artykułu: Jak to zrobić</a>
-				</article>
+				<a href="druga_strona.html" class="about-subsection__link">Przejdź do artykułu: Jak to zrobić</a>
 			</article>
+		</article>
 
 	</main>
 	<footer class="footer">
 		Strona domowa Jarka Kajko, wszystkie treści są własnością autora. Kopiowanie ich jest naruszeniem prawa.
 	</footer>
-	<script src="script.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
