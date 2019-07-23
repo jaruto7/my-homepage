@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-  background-color: #f8f4f4;
+  background-image: linear-gradient( 111.2deg,  rgba(230,248,13,1) 0.9%, rgba(128,248,13,1) 52.5%, rgba(103,205,4,1) 78.2%, rgba(44,151,13,1) 99.2% );
   font-family: Arial, sans-serif;
 }
 
@@ -39,6 +39,7 @@ body {
 .main-header__title {
   color: rgb(84, 207, 100);
   font-size: 33px;
+  text-shadow: 1px 1px 3px black;
 }
 
 /* ABOUT SECTION */
