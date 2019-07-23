@@ -12,7 +12,7 @@ body {
 /* MAIN SECTION */
 
 .main {
-  /* width: 100%; */
+  width: 100%;
   max-width: 1024px;
   margin: 0 auto;
 }
@@ -22,13 +22,15 @@ body {
 .navigation__list {
   margin: 0;
   padding: 16px 16px;
+  display: flex;
+  justify-content: center;
 }
 
 .navigation__item {
-  display: inline-block;
   font-size: 25px;
-
   color: brown;
+  list-style: none;
+  padding-left: 16px;
 }
 
 /* MAIN-HEADER SECTION */
