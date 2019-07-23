@@ -24,6 +24,7 @@ body {
   padding: 16px 16px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .navigation__item {
