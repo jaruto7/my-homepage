@@ -4,9 +4,9 @@ Pozdro!`);
 const footerTitle = document.querySelector('.footer__paragraph--js');
 
 
-IdentifyPerson = (age, name) => {
-  const matured = age >= 35 && age <= 40;
-  const old = age >= 41 && age <= 70 || age >= 70;
+const IdentifyPerson = (age, name) => {
+  const matured = age >= 18 && age <= 60;
+  const old = age >= 61 && age <= 75 || age >= 75;
 
   if(matured) {
     console.log(`Witaj, ${name} dorosły człowieku! Twój obecny wiek to ${age}.`);
@@ -30,6 +30,8 @@ IdentifyPerson = (age, name) => {
 }
 
 IdentifyPerson(36, 'Paweł');
+IdentifyPerson(32, 'Jarek');
+IdentifyPerson(17, 'Natalia');
 
 // console.log(footerTitle.innerHTML);
 footerTitle.innerHTML = 'Strona domowa Jarka Kajko, wszystkie treści są własnością autora, ale śmiało można kopiować na pełnym legalu.';
