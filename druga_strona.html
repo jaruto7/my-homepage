@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -13,7 +14,7 @@
 
 	<header class="header-navigation">
 		<nav class="navigation">
-			<ul class="navigation__list">
+			<ul class="navigation__list navigation__list--js">
 				<li class="navigation__item">
 					<a href="index.html" class="navigation__link">Strona główna</a>
 				</li>
@@ -21,6 +22,13 @@
 					<a href="druga_strona.html" class="navigation__link">Podstrona</a>
 				</li>
 			</ul>
+			<button class="hamburger__icon hamburger__icon--js">
+					<div class="button not-active">
+						<span class="hamburger__icon-line"></span>
+						<span class="hamburger__icon-line"></span>
+						<span class="hamburger__icon-line"></span>
+					</div>  
+				</button>
 		</nav>
 	</header>
 
@@ -28,7 +36,7 @@
 
 		<header class="main-header">
 			<h1 class="main-header__title">
-				Dziennik pokładowy kursanta ze szkolenia WTF Co ten frontend
+				Dziennik pokładowy kursanta z kursu WTF Co ten frontend
 			</h1>
 		</header>
 
@@ -38,8 +46,8 @@
 			<img
 					src="https://images.unsplash.com/photo-1561266322-ccd177d44cff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 					alt="zdjęcie miasta" class="url-collection__image">
-			<p class="about__paragraph">
-				Cześć. Mam na imię Jarek, lat 31. Programowaniem podjarałem się już w szkole w 2015 roku jako absolwent studium
+			<p class="about__paragraph about__paragraph--scrolled">
+				Cześć. Mam na imię Jarek, lat 32. Programowaniem podjarałem się już w szkole w 2015 roku jako absolwent studium
 				informatycznego (na ostatnim semestrze miałem wprowadzenie do javascript i trochę php). Po ukończeniu szkoły
 				uczyłem się programować samodzielnie, głównie z poradników internetowych w tym z popularnego codecademy który
 				jest całkiem niezłym wprowadzeniem do kodowania, wykupiłem nawet miesięczną płatną subskrypcję która średnio
@@ -100,13 +108,14 @@
 			<h2 class="about__title">Co już wcześniej umiałem?</h2>
 			<img src="https://images.unsplash.com/photo-1563775421597-ecf0fc7f9c04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="url-collection__image" alt="Widok schodów z lotu ptaka">
 			<ul class="about__list">
-				<li class="about__item">HTML</li>
-				<li class="about__item">CSS</li>
-				<li class="about__item">Javascript ES6</li>
-				<li class="about__item">RWD</li>
-				<li class="about__item">Git</li>
-				<li class="about__item">NodeJs & npm task runner</li>
-				<li class="about__item">Terminal</li>
+					<li class="about__item">HTML</li>
+          <li class="about__item">CSS</li>
+          <li class="about__item">Javascript ES6</li>
+          <li class="about__item">Github Pages</li>
+          <li class="about__item">RWD: CSS Media Queries</li>
+          <li class="about__item">Git</li>
+          <li class="about__item">NodeJs & npm task runner</li>
+          <li class="about__item">Terminal</li>
 			</ul>		
 		</article>
 
